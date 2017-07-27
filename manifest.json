@@ -1,13 +1,14 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "iSaver",
+  "description": "A simple extension to remind you to give you eyes a break!.",
   "version": "1.0",
 
   "browser_action": {
     "default_icon": "eye.png",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_title": "Rest your eyes!"
   },
   "permissions": [
     "activeTab",
